@@ -3,6 +3,7 @@
   и их переопределение под различные устройства
 */
 
+
 :root {
   --main-color: #000028;
   --accent-color: #FF0070;
@@ -12,5 +13,7 @@
   --title-decor-color: #000028;
   --article-question-color: #FF0070;
   --margin-value: clamp(10px, 2.5445vw + .0286rem, 20px);
+  --corner-color: #FF0070;
 }
+
 
