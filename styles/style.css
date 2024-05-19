@@ -28,8 +28,6 @@
   }
 }
 
-
-
 .top-right-decor {
   position: absolute;
   top: var(--margin-value);
@@ -170,7 +168,6 @@
   }
 }
 
-
 /* статьи */
 
 .link {
@@ -196,7 +193,6 @@
   display: flex;
   flex-direction: column;
   gap: clamp(52px, 11vw, 80px);
-  /* gap: 52px; */
 }
 
 .question {
@@ -335,12 +331,10 @@
 
 .footer {
   position: relative;
-  /* height: calc(100vh - 2 * var(--margin-value)); */
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin: var(--margin-value); */
   box-sizing: border-box;
 }
 
@@ -350,7 +344,6 @@
   line-height: .8;
   color: var(--title-color);
   text-shadow: 2px 2px var(--accent-color);
-
 }
 
 @media (width >= 768px) {
