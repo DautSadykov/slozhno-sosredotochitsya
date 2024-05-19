@@ -9,4 +9,16 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   background-image: url(../images/cover-image-dark.png);
+  --main-color: #000028;
+  --accent-color: #ff0070;
+  --header-color: #ff0070;
+  --text-color: #f1b2ce;
+  --title-color: #db00ff;
+  --title-decor-color: #000028;
+  --article-question-color: #ff0070;
+  --corner-color: #ff0070;
+  --background-color: #000028;
+}
+
+:root {
 }

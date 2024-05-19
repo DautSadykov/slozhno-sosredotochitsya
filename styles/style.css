@@ -4,9 +4,30 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-position: center top;
   background-attachment: fixed;
-  background-image: url(../images/cover-image-dark.png);
   background-size: cover;
+  background-color: var(--background-color);
 }
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    background-image: url(../images/cover-image-dark.png);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .page {
+    background-image: url(../images/cover-image-light.png);
+  }
+
+  .top-right-decor::before {
+    display: none;
+  }
+
+  .top-right-decor::after {
+    display: none;
+  }
+}
+
 
 
 .top-right-decor {
@@ -38,8 +59,6 @@
 
 .header {
   position: relative;
-  /* height: calc(100vh - var(--margin-value)); */
-  /* margin: 0 var(--margin-value); */
   height: 100vh;
   padding: var(--margin-value);
 }
