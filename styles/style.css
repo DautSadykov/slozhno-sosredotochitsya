@@ -8,25 +8,6 @@
   background-color: var(--background-color);
 }
 
-@media (prefers-color-scheme: dark) {
-  .page {
-    background-image: url(../images/cover-image-dark.png);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .page {
-    background-image: url(../images/cover-image-light.png);
-  }
-
-  .top-right-decor::before {
-    display: none;
-  }
-
-  .top-right-decor::after {
-    display: none;
-  }
-}
 
 .top-right-decor {
   position: absolute;
@@ -58,6 +39,7 @@
 .header {
   position: relative;
   height: 100vh;
+  min-height: 668px;
   padding: var(--margin-value);
 }
 
@@ -227,13 +209,14 @@
   .articles__article-item:nth-child(2n+1) .answers__item:first-child {
     margin: 0;
   }
-  
+
   .articles__article-item:nth-child(2) .question {
     width: 236px;
   }
   
   .articles__article-item:nth-child(3) .answers__title {
     margin-top: 0;
+    margin-bottom: 20px;
   }
 }
 
@@ -332,6 +315,7 @@
 .footer {
   position: relative;
   height: 100vh;
+  min-height: 668px;
   display: flex;
   align-items: center;
   justify-content: center;
