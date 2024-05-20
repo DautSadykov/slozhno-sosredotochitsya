@@ -17,11 +17,41 @@
   --article-question-color: #ff0070;
   --corner-color: #ff0070;
   --background-color: #000028;
+  --nav-hover-color: rgb(255, 0, 112, 0.4);
+}
+
+.theme_dark .top-right-decor::before {
+  display: block;
+}
+
+.theme_dark .top-right-decor::after {
+  display: block;
 }
 
 @media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: #ff0070;
+    --header-color: #ff0070;
+    --text-color: #f1b2ce;
+    --title-color: #db00ff;
+    --title-decor-color: #000028;
+    --article-question-color: #ff0070;
+    --corner-color: #ff0070;
+    --background-color: #000028;
+    --nav-hover-color: rgb(255, 0, 112, 0.4);
+  }
+
   .page {
     background-image: url(../images/cover-image-dark.png);
   }
+
+  .top-right-decor::before {
+    display: block;
+  }
+  
+  .top-right-decor::after {
+    display: block;
+  }
 }
+
 
