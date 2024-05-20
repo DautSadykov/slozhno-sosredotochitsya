@@ -48,10 +48,8 @@
   .top-right-decor::before {
     display: block;
   }
-  
+
   .top-right-decor::after {
     display: block;
   }
 }
-
-

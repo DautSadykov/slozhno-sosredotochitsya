@@ -9,10 +9,10 @@
   чем стили в медиазапросе предпочтений пользователя
   */
   background-image: url(../images/cover-image-light.png);
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
   --header-color: #353430;
   --text-color: #353430;
-  --title-color: #FFC2E6;
+  --title-color: #ffc2e6;
   --title-decor-color: #353430;
   --article-question-color: #353430;
   --corner-color: #353430;
@@ -27,7 +27,6 @@
 .theme_light .top-right-decor::after {
   display: none;
 }
-
 
 @media (prefers-color-scheme: light) {
   .page {
