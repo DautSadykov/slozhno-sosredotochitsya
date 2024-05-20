@@ -45,7 +45,7 @@
   margin-bottom: clamp(40px, 5.0891vw + 1.3073rem, 60px);
 }
 
-@media (width >= 768px) { 
+@media (width >= 768px) {
   .header {
     padding-left: 0;
   }
